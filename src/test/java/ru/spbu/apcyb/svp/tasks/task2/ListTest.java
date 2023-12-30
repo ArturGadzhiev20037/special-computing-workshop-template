@@ -38,6 +38,7 @@ class ListTest {
         assertTrue(list.addAll(List.of(99, 100)));
     }
 
+
     @Test
     void addInTheMiddleTest() {
         DoublyLinkedList list = new DoublyLinkedList(List.of(1, 2, 3));

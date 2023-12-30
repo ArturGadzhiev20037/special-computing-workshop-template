@@ -113,6 +113,7 @@ public class CustomQueue implements java.util.Queue {
         return first;
     }
 
+
     @Override
     public Object peek() {
         if (queue.isEmpty()) {

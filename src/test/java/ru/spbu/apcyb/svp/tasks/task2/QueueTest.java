@@ -128,6 +128,7 @@ class QueueTest {
         assertEquals("The queue is empty", e.getMessage());
     }
 
+
     @Test
     void peekTest() {
         CustomQueue queue = new CustomQueue(List.of(1));
